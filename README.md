@@ -1,7 +1,7 @@
 Heyya,
     it's nice to have you here.
 
-This design inspo was gotten from a test exams I had to undertake for the Talent Mobility
+This design inspo was gotten from a test exams I had to undertake for the Talent Mobility Program
 exam which is open to ghanaian residents ONLY. 
 
 A design was given and I was asked to replicate it as closely as I could and although it might not be as [perfect]
