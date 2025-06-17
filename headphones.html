@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones - AudioPhile</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <div class="logo">
+                <a href="index.html">audiophile</a>
+            </div>
+            
+            <nav class="nav" id="nav">
+                <a href="index.html">HOME</a>
+                <a href="headphones.html" class="active">HEADPHONES</a>
+                <a href="speakers.html">SPEAKERS</a>
+                <a href="earphones.html">EARPHONES</a>
+            </nav>
+            
+            <div class="cart-icon" id="cartIcon">
+                <svg width="23" height="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.625 15.833c1.132 0 2.054.935 2.054 2.084 0 1.148-.922 2.083-2.054 2.083-1.132 0-2.054-.935-2.054-2.083 0-1.15.922-2.084 2.054-2.084zm9.857 0c1.132 0 2.054.935 2.054 2.084 0 1.148-.922 2.083-2.054 2.083-1.132 0-2.054-.935-2.054-2.083 0-1.15.922-2.084 2.054-2.084zm-9.857 1.39a.69.69 0 00-.685.694.69.69 0 00.685.694.69.69 0 00.685-.694.69.69 0 00-.685-.694zm9.857 0a.69.69 0 00-.685.694.69.69 0 00.685.694.69.69 0 00.685-.694.69.69 0 00-.685-.694zM4.717 0c.316 0 .59.215.658.517l.481 2.122h15.47c.421 0 .748.383.652.803l-1.517 6.66c-.067.294-.327.517-.652.517H7.583l.533 2.34h10.25c.421 0 .75.336.75.756s-.329.756-.75.756H7.583c-.316 0-.59-.215-.658-.517L5.933 5.209H.75c-.421 0-.75-.336-.75-.756s.329-.756.75-.756H5.933L4.717 0z" fill="#FFF" fill-rule="nonzero"/>
+                </svg>
+                <span class="cart-count" id="cartCount">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Category Hero -->
+    <section class="category-hero">
+        <div class="container">
+            <h1 class="category-title">HEADPHONES</h1>
+        </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb">
+        <div class="container">
+            <button class="btn btn-text go-back-btn" onclick="window.history.back()">
+                <svg width="7" height="12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 12L0 6l6-6" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd"/>
+                </svg>
+                Go Back
+            </button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="category-products">
+        <div class="container">
+            <div class="products-list" id="headphonesList">
+                <!-- Headphones will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Navigation -->
+    <section class="category-nav-section">
+        <div class="container">
+            <div class="category-nav-grid">
+                <div class="category-nav-item">
+                    <div class="category-nav-image">
+                        <img src="./assets/product-xx99-mark-one-headphones/desktop/image-product.jpg" alt="Headphones">
+                    </div>
+                    <h3>HEADPHONES</h3>
+                    <a href="headphones.html" class="btn btn-secondary">
+                        SHOP
+                        <svg width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m1.322 1 5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="category-nav-item">
+                    <div class="category-nav-image">
+                        <img src="./assets/home/desktop/image-speaker-zx9.png" alt="Speakers">
+                    </div>
+                    <h3>SPEAKERS</h3>
+                    <a href="speakers.html" class="btn btn-secondary">
+                        SHOP
+                        <svg width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m1.322 1 5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="category-nav-item">
+                    <div class="category-nav-image">
+                        <img src="./assets/home/desktop/image-earphones-yx1.jpg" alt="Earphones">
+                    </div>
+                    <h3>EARPHONES</h3>
+                    <a href="earphones.html" class="btn btn-secondary">
+                        SHOP
+                        <svg width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m1.322 1 5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Bringing you the <span class="highlight">best</span> audio gear</h2>
+                    <p>Located at the heart of New York City, Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration rooms available for you to browse and experience a wide range of our products. Stop by our store to meet some of the fantastic people who make Audiophile the best place to buy your portable audio equipment.</p>
+                </div>
+                <div class="about-image">
+                    <img src="./assets/product-yx1-earphones/desktop/image-gallery-3.jpg" alt="Best audio gear">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Modals (same as index.html) -->
+    <div class="modal" id="cartModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Cart (<span id="cartItemCount">0</span>)</h3>
+                <button class="btn-text" id="removeAllBtn">Remove all</button>
+            </div>
+            <div class="cart-items" id="cartItems"></div>
+            <div class="cart-total">
+                <div class="total-row">
+                    <span>TOTAL</span>
+                    <span id="cartTotal">$ 0</span>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-full" id="checkoutBtn">CHECKOUT</button>
+        </div>
+    </div>
+
+    <div class="modal" id="productModal">
+        <div class="modal-content modal-large">
+            <button class="modal-close" id="closeProductModal">&times;</button>
+            <button class="btn btn-text go-back-btn" onclick="closeAllModals()">
+                <svg width="7" height="12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 12L0 6l6-6" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd"/>
+                </svg>
+                Go Back
+            </button>
+            <div class="product-detail" id="productDetail"></div>
+        </div>
+    </div>
+
+    <div class="modal" id="checkoutModal">
+        <div class="modal-content modal-large">
+            <button class="modal-close" id="closeCheckoutModal">&times;</button>
+            <div class="checkout-content">
+                <h2>CHECKOUT</h2>
+                <form id="checkoutForm">
+                    <div class="form-section">
+                        <h3 class="form-section-title">BILLING DETAILS</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Alexei Ward" required>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="alexei@mail.com" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 202-555-0136" required>
+                            <span class="error-message" id="phoneError"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3 class="form-section-title">SHIPPING INFO</h3>
+                        <div class="form-group">
+                            <label for="address">Your Address</label>
+                            <input type="text" id="address" name="address" placeholder="1137 Williams Avenue" required>
+                            <span class="error-message" id="addressError"></span>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="zipCode">ZIP Code</label>
+                                <input type="text" id="zipCode" name="zipCode" placeholder="10001" required>
+                                <span class="error-message" id="zipCodeError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="city">City</label>
+                                <input type="text" id="city" name="city" placeholder="New York" required>
+                                <span class="error-message" id="cityError"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="country">Country</label>
+                            <input type="text" id="country" name="country" placeholder="United States" required>
+                            <span class="error-message" id="countryError"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3 class="form-section-title">PAYMENT DETAILS</h3>
+                        <div class="form-group">
+                            <label>Payment Method</label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="paymentMethod" value="eMoney" checked>
+                                    <span class="radio-custom"></span>
+                                    Mobile Money
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="paymentMethod" value="cash">
+                                    <span class="radio-custom"></span>
+                                    Cash on Delivery
+                                </label>
+                            </div>
+                        </div>
+                        <div class="payment-fields" id="paymentFields">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="eMoneyNumber">Momo Number</label>
+                                    <input type="text" id="eMoneyNumber" name="eMoneyNumber" placeholder="238521993">
+                                    <span class="error-message" id="eMoneyNumberError"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="eMoneyPin">Momo PIN</label>
+                                    <input type="text" id="eMoneyPin" name="eMoneyPin" placeholder="6891">
+                                    <span class="error-message" id="eMoneyPinError"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="checkout-summary">
+                        <h3>SUMMARY</h3>
+                        <div class="summary-items" id="summaryItems"></div>
+                        <div class="summary-totals">
+                            <div class="total-row">
+                                <span>TOTAL</span>
+                                <span id="summarySubtotal">$ 0</span>
+                            </div>
+                            <div class="total-row">
+                                <span>SHIPPING</span>
+                                <span>$ 50</span>
+                            </div>
+                            <div class="total-row">
+                                <span>VAT (INCLUDED)</span>
+                                <span id="summaryVat">$ 0</span>
+                            </div>
+                            <div class="total-row grand-total">
+                                <span>GRAND TOTAL</span>
+                                <span id="summaryGrandTotal">$ 0</span>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">CONTINUE & PAY</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="confirmationModal">
+        <div class="modal-content">
+            <div class="confirmation-content">
+                <div class="confirmation-icon">
+                    <svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="none" fill-rule="evenodd">
+                            <circle fill="#D87D4A" cx="32" cy="32" r="32"/>
+                            <path stroke="#FFF" stroke-width="4" fill="none" d="m20.754 33.333 6.751 6.751 15.804-15.803"/>
+                        </g>
+                    </svg>
+                </div>
+                <h2>THANK YOU<br>FOR YOUR ORDER</h2>
+                <p>You will receive an email confirmation shortly.</p>
+                <div class="order-summary">
+                    <div class="order-items" id="orderItems"></div>
+                    <div class="order-total">
+                        <span>GRAND TOTAL</span>
+                        <span id="orderGrandTotal">$ 0</span>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-full" id="backToHomeBtn">BACK TO HOME</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <a href="index.html">audiophile</a>
+                    </div>
+                    <p>Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers and sound specialists who are devoted to helping you get the most out of personal audio.</p>
+                </div>
+                <nav class="footer-nav">
+                    <a href="index.html">HOME</a>
+                    <a href="headphones.html">HEADPHONES</a>
+                    <a href="speakers.html">SPEAKERS</a>
+                    <a href="earphones.html">EARPHONES</a>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright 2025. All Rights Reserved</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.46 0H1.54C.69 0 0 .69 0 1.54v20.92C0 23.31.69 24 1.54 24h11.24v-9.29H9.69v-3.62h3.09V8.41c0-3.05 1.87-4.71 4.58-4.71 1.3 0 2.42.1 2.75.14v3.18h-1.89c-1.48 0-1.77.7-1.77 1.73v2.27h3.54l-.46 3.62h-3.08V24h6.05c.85 0 1.54-.69 1.54-1.54V1.54C24 .69 23.31 0 22.46 0z" fill="#FFF"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <svg width="24" height="20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 2.557a9.83 9.83 0 01-2.828.775A4.932 4.932 0 0023.337.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 1.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 17.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.557z" fill="#FFF"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="#FFF"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/category.js"></script>
+</body>
+</html>
